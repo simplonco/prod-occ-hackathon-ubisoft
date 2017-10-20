@@ -1,4 +1,4 @@
-<section class="lots">
+<section class="lots" id="lots">
 		
     <div class="container">
 

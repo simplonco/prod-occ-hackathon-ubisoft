@@ -39,6 +39,7 @@ Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-su
 
 #main-nav {
   background-color: #fff;
+  border: 0;
 }
 
 #main-nav .navbar-nav > li > a:hover,
@@ -88,10 +89,15 @@ Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-su
 
 #focus .textwidget {
   text-align: left;
-  column-count: 2;
-  column-gap: 3em;
-  padding-left: 2em;
-  padding-right: 2em;
+}
+
+@media all and (min-width: 1000px) {
+  #focus .textwidget {
+    column-count: 2;
+    column-gap: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
 #client-feedbacks .feedback-box,
 .testimonial .widget_zerif_testim-widget li {
@@ -109,9 +115,44 @@ Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-su
   padding-top: 3em;
   padding-bottom: 6em;
   color: #e7e2e2;
+  background-image: url("/wp-content/themes/zerif-lite-child/images/lots.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .lots-items > div {
   padding-left: 4em;
   padding-right: 4em;
+}
+
+.testimonial {
+  background-color: #e96656;
+  background-image: url("/wp-content/themes/zerif-lite-child/images/lapin-vuvuzela-web.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.testimonial .container {
+}
+#client-feedbacks .textwidget h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#client-feedbacks .textwidget ul {
+  margin-left: 0;
+  margin-top: 1em;
+  list-style: none;
+}
+#client-feedbacks .textwidget li {
+  margin-bottom: 0.66em;
+}
+
+#client-feedbacks .textwidget li b {
+  padding-right: 0.66em;
+}
+
+#focus .section-legend {
+  font-size: 1.6em;
 }
