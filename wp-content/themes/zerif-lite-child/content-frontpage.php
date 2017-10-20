@@ -31,18 +31,7 @@ $zerif_bigtitle_show = get_theme_mod('zerif_bigtitle_show');
 	
 	/* ABOUT US */
 
-	// $zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
-
-	// if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
-
-	// zerif_before_about_us_trigger();
-
-	// 	get_template_part( 'sections/about_us' );
-
-	// zerif_after_about_us_trigger();
-
-	// endif;
-	/* TESTIMONIALS */
+		/* TESTIMONIALS */
 
 	$zerif_testimonials_show = get_theme_mod('zerif_testimonials_show');
 
@@ -70,8 +59,34 @@ $zerif_bigtitle_show = get_theme_mod('zerif_bigtitle_show');
 
 	endif;
 
-	
+	?>
+	<section class="lots">
+		
+		<div class="container">
 
-	
+		<!-- SECTION HEADER -->
+
+			<div class="section-header">
+
+				<h2>Lots</h2>
+
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="http://lorempixel.com/200/200/" alt="..." class="img-thumbnail">
+					<h3>Google Home</h3>
+				</div>
+				<div class="col-lg-4">
+					<img src="http://lorempixel.com/200/200/" alt="..." class="img-thumbnail">
+					<h3>Visite du studio Ubisoft</h3></div>
+				<div class="col-lg-4">
+					<img src="http://lorempixel.com/200/200/" alt="..." class="img-thumbnail">
+					<h3>Abonnement Netflix</h3>
+				</div>
+			</div>
+		</div>
+
+	</section>
 	
 		
