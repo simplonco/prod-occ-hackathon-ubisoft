@@ -12,85 +12,106 @@ Domain Path: /languages/
 Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-support,sticky-post,theme-options, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, footer-widgets, portfolio, e-commerce, blog
 */
 .navbar-brand {
-	height: 4em;
+  height: 4em;
 }
 
 .header-content-wrap {
-	padding: 3em 0 11.5em;
+  padding: 3em 0 11.5em;
 }
-.intro-text, .intro-text a{
-	color: #2d2d2d;
-	padding-top: 1.8em;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 1.8em;
-    line-height: 1.3em;
+.intro-text,
+.intro-text a {
+  color: #2d2d2d;
+  padding-top: 1.8em;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 1.8em;
+  line-height: 1.3em;
 }
 .buttons {
-	margin-top: 0.8em;
+  margin-top: 0.8em;
 }
-.focus{
-	padding-top: 1em;
+.focus {
+  padding-top: 1em;
 }
-.section-header{
-	padding-bottom: 35px;
+.section-header {
+  padding-bottom: 35px;
 }
 
 #main-nav {
-	background-color: #fff;
+  background-color: #fff;
 }
 
-#main-nav .navbar-nav>li>a:hover,
-#main-nav .navbar-nav>li>a:focus {
-	color: #444040;
+#main-nav .navbar-nav > li > a:hover,
+#main-nav .navbar-nav > li > a:focus {
+  color: #444040;
 }
 
 .slogan {
-	color: #444040;	
-	padding-left: 1em;
+  color: #444040;
+  padding-left: 1em;
 }
 
 .home-header-wrap {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .header-content-wrap {
+  background-color: #fff;
+  background-image: url(./images/lapins_banderole.png);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
 
-	background-color: #fff;
-	background-image: url(./images/lapins_banderole.png);
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
+@media all and (min-width: 680px) {
+  .header-content-wrap {
+    background-size: 50%;
+  }
+}
+
+@media all and (min-width: 1224px) {
+  .header-content-wrap {
+    background-size: 35%;
+  }
 }
 
 #home .home-header-wrap .header-content-wrap .btn.btn-primary {
-	background-color: rgba(175, 35, 20, 0.7);
-	border-color: rgba(175, 35, 20, 0.7);
-	font-size:1em;
-	padding: .8em 1.3em;
+  background-color: rgba(175, 35, 20, 0.7);
+  border-color: rgba(175, 35, 20, 0.7);
+  font-size: 1em;
+  padding: 0.8em 1.3em;
 }
 
 #home .home-header-wrap .header-content-wrap .btn.btn-primary:hover {
-	background-color: rgba(175, 35, 20, 1);
+  background-color: rgba(175, 35, 20, 1);
 }
 
- #focus .textwidget {
- 	text-align: left;
- 	column-count: 2;
- 	column-gap:3em;
- 	padding-left: 2em;
- 	padding-right: 2em;
- }
- #client-feedbacks .feedback-box, .testimonial .widget_zerif_testim-widget li {
- 	list-style: none;
- }
- .section-header .section-legend {
-	padding-right: 1em;
-	padding-left: 1em;
+#focus .textwidget {
+  text-align: left;
+  column-count: 2;
+  column-gap: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+#client-feedbacks .feedback-box,
+.testimonial .widget_zerif_testim-widget li {
+  list-style: none;
+}
+.section-header .section-legend {
+  padding-right: 1em;
+  padding-left: 1em;
 }
 .textwidget custom-html-widget > ul {
-	list-style: none;
+  list-style: none;
 }
-.lots{
-	background: red;
+.lots {
+  background: #353333;
+  padding-top: 3em;
+  padding-bottom: 6em;
+  color: #e7e2e2;
+}
+
+.lots-items > div {
+  padding-left: 4em;
+  padding-right: 4em;
 }

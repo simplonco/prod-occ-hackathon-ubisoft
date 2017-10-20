@@ -59,34 +59,7 @@ $zerif_bigtitle_show = get_theme_mod('zerif_bigtitle_show');
 
 	endif;
 
-	?>
-	<section class="lots">
-		
-		<div class="container">
-
-		<!-- SECTION HEADER -->
-
-			<div class="section-header">
-
-				<h2>Lots</h2>
-
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4">
-					<img src="http://lorempixel.com/200/200/" alt="..." class="img-thumbnail">
-					<h3>Google Home</h3>
-				</div>
-				<div class="col-lg-4">
-					<img src="http://lorempixel.com/200/200/" alt="..." class="img-thumbnail">
-					<h3>Visite du studio Ubisoft</h3></div>
-				<div class="col-lg-4">
-					<img src="http://lorempixel.com/200/200/" alt="..." class="img-thumbnail">
-					<h3>Abonnement Netflix</h3>
-				</div>
-			</div>
-		</div>
-
-	</section>
+	get_template_part( 'sections/lots' );
+	
 	
 		
