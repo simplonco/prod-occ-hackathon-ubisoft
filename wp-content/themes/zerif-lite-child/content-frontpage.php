@@ -29,9 +29,22 @@ $zerif_bigtitle_show = get_theme_mod('zerif_bigtitle_show');
 
 	endif;
 	
-	/* ABOUT US */
 
-		/* TESTIMONIALS */
+		/* ABOUT US */
+
+		$zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
+		
+			if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
+		
+			zerif_before_about_us_trigger();
+		
+				get_template_part( 'sections/about_us' );
+		
+			zerif_after_about_us_trigger();
+		
+			endif;
+
+	/* TESTIMONIALS */
 
 	$zerif_testimonials_show = get_theme_mod('zerif_testimonials_show');
 

@@ -18,6 +18,8 @@
 <?php wp_head(); ?>
 
 <?php zerif_bottom_head_trigger(); ?>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <?php if(isset($_POST['scrollPosition'])): ?>
@@ -76,12 +78,7 @@
 
 					<div class="navbar-brand">
 
-						<?php
-
-						if( has_custom_logo() ) :
-							the_custom_logo();
-						endif;
-						?>
+						<div class="logo" style="background-image: url(<?php echo get_stylesheet_directory_uri() ?>/images/ubi-logo.svg)">Hackathon Ubisoft Simplon</div>
 						<span class="slogan"><?php echo get_bloginfo( 'description', 'display' );?></span>
 							
 

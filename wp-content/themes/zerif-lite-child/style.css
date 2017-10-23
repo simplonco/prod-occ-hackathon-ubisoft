@@ -11,21 +11,36 @@ Text Domain: zerif-lite
 Domain Path: /languages/
 Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-support,sticky-post,theme-options, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, footer-widgets, portfolio, e-commerce, blog
 */
+
+body,
+p,
+h1,
+h2,
+h3,
+.btn {
+  font-family: Roboto;
+}
 .navbar-brand {
-  height: 4em;
+}
+
+.navbar-brand .logo {
+  text-indent: -9000px;
+  height: 3em;
+  width: 120%;
+  display: block;
+  background-repeat: no-repeat;
 }
 
 .header-content-wrap {
   padding: 3em 0 11.5em;
 }
-.intro-text,
-.intro-text a {
-  color: #2d2d2d;
-  padding-top: 1.8em;
+.intro-text {
+  padding-top: 4.8em;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 1.8em;
+  font-size: 3em;
   line-height: 1.3em;
+  font-weight: bolder;
 }
 .buttons {
   margin-top: 0.8em;
@@ -38,30 +53,26 @@ Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-su
 }
 
 #main-nav {
-  background-color: #fff;
   border: 0;
+  background-color: #101010;
+  height: 6em;
 }
-
+#main-nav .navbar-nav > li {
+  margin-top: 1.8em;
+}
+#main-nav .navbar-nav > li > a:link,
+#main-nav .navbar-nav > li > a:visited,
+#main-nav .navbar-nav > li > a:active {
+  color: #fff;
+}
 #main-nav .navbar-nav > li > a:hover,
 #main-nav .navbar-nav > li > a:focus {
-  color: #444040;
+  //color: #fff;
 }
 
 .slogan {
-  color: #444040;
+  color: #fff;
   padding-left: 1em;
-}
-
-.home-header-wrap {
-  background-color: #fff;
-}
-
-.header-content-wrap {
-  background-color: #fff;
-  background-image: url(./images/lapins_banderole.png);
-  background-size: contain;
-  background-position: bottom;
-  background-repeat: no-repeat;
 }
 
 @media all and (min-width: 680px) {
@@ -77,8 +88,8 @@ Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-su
 }
 
 #home .home-header-wrap .header-content-wrap .btn.btn-primary {
-  background-color: rgba(175, 35, 20, 0.7);
-  border-color: rgba(175, 35, 20, 0.7);
+  background-color: rgba(255, 21, 0, 1);
+  border-color: rgba(255, 21, 0, 1);
   font-size: 1em;
   padding: 0.8em 1.3em;
 }
@@ -126,10 +137,11 @@ Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-su
 }
 
 .testimonial {
-  background-color: #e96656;
+  /*background-color: #e96656;*/
+  /* background-color: #100436;
   background-image: url("/wp-content/themes/zerif-lite-child/images/lapin-vuvuzela-web.png");
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: bottom left;*/
 }
 .testimonial .container {
 }
