@@ -19,7 +19,7 @@
 
 <?php zerif_bottom_head_trigger(); ?>
 
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto+Slab:100,300,400|Roboto:100,300i,400" rel="stylesheet">
 </head>
 
 <?php if(isset($_POST['scrollPosition'])): ?>

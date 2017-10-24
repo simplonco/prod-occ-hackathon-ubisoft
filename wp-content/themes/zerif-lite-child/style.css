@@ -32,15 +32,20 @@ h3,
 }
 
 .header-content-wrap {
-  padding: 3em 0 11.5em;
+  padding: 3.5em 0 4.5em;
 }
 .intro-text {
-  padding-top: 4.8em;
+  padding-top: 1em;
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 3em;
-  line-height: 1.3em;
-  font-weight: bolder;
+  font-size: 4em;
+  line-height: 0.9;
+  letter-spacing: -2px;
+  font-weight: 100;
+  font-family: Roboto Condensed;
+  text-align: left;
+  width: 8em;
+  text-shadow: 2px 2px 0 #000;
 }
 .buttons {
   margin-top: 0.8em;
@@ -59,6 +64,9 @@ h3,
 }
 #main-nav .navbar-nav > li {
   margin-top: 1.8em;
+  font-family: Roboto;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 #main-nav .navbar-nav > li > a:link,
 #main-nav .navbar-nav > li > a:visited,
@@ -73,6 +81,7 @@ h3,
 .slogan {
   color: #fff;
   padding-left: 1em;
+  font-family: Roboto Condensed;
 }
 
 @media all and (min-width: 680px) {
@@ -88,6 +97,7 @@ h3,
 }
 
 #home .home-header-wrap .header-content-wrap .btn.btn-primary {
+  font-family: Roboto Condensed;
   border: 0;
   font-size: 1em;
   padding: 0.8em 1.3em;
@@ -152,10 +162,7 @@ h3,
 .testimonial .widget_zerif_testim-widget li {
   list-style: none;
 }
-.section-header .section-legend {
-  padding-right: 1em;
-  padding-left: 1em;
-}
+
 .textwidget custom-html-widget > ul {
   list-style: none;
 }
@@ -220,15 +227,6 @@ blue-skin.css: 14 .blue-skin .circle-wrap {
   padding-right: 4em;
 }
 
-.testimonial {
-  /*background-color: #e96656;*/
-  /* background-color: #100436;
-  background-image: url("/wp-content/themes/zerif-lite-child/images/lapin-vuvuzela-web.png");
-  background-repeat: no-repeat;
-  background-position: bottom left;*/
-}
-.testimonial .container {
-}
 #client-feedbacks .textwidget h5 {
   margin-top: 0;
   margin-bottom: 0;
@@ -324,4 +322,109 @@ blue-skin.css: 14 .blue-skin .circle-wrap {
 
 #testimonials .section-header h2 {
   color: #333 !important;
+}
+
+/** footer **/
+.footer-logo {
+  background-size: contain;
+  height: 8em;
+  text-indent: -9000px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#footer .copyright {
+  background: #fff;
+}
+
+/** text about-us **/
+
+.about-us .section-legend {
+  padding-right: 1em;
+  padding-left: 1em;
+  font-size: 2em;
+  margin-top: 2em;
+  font-weight: 100;
+  margin-bottom: 1.6em;
+  letter-spacing: 3px;
+}
+
+.zerif-rtl-skills .skills .skill {
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  align-items: center;
+}
+.skill > p {
+  grid-column-start: 1;
+}
+
+.skills .skill .skill-count {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.skills .skill .section-legend {
+  margin-left: 0;
+  padding-left: 6px;
+  padding-right: 0;
+  color: #c7d6f3;
+}
+
+.skills .skill .section-legend label {
+  /* outline: red solid 1px; */
+  font-size: 16px;
+  font-style: italic;
+  text-transform: none;
+  font-weight: normal;
+  color: #ffffff;
+  letter-spacing: 0px;
+}
+
+.about-us .text_and_skills p {
+  color: #dfdfdf;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.4;
+  font-family: Roboto Slab;
+  font-weight: 100;
+}
+
+.skills-subtitle {
+  text-align: left;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: #a2a2a2;
+  line-height: 1.4;
+}
+
+.about-us .section-header h2 {
+  font-family: Roboto Condensed;
+  line-height: 1.1;
+  font-weight: 100;
+  text-align: right;
+}
+
+.about-us .big-intro {
+  font-family: Roboto Condensed;
+  letter-spacing: -3px;
+  font-weight: 100;
+  line-height: 0.9;
+  color: #a2a2a2;
+}
+
+.about-us p:empty {
+  /* outline: red solid 1px; */
+  margin: 0;
+  line-height: 0;
+}
+
+.about-us .aboutus-postcontent {
+  margin-top: 1.2em;
+}
+.about-us .aboutus-postcontent p {
+  font-family: Roboto Slab;
 }

@@ -186,6 +186,10 @@
 					echo '</ul><!-- .social -->';
 				}
 
+				/* affichage logos */
+
+				get_template_part( 'sections/logos-footer' );
+
 				if ( ! empty( $zerif_copyright ) ) {
 					echo '<p id="zerif-copyright">' . wp_kses_post( $zerif_copyright ) . '</p>';
 				} elseif ( is_customize_preview() ) {
