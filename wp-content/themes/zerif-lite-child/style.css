@@ -88,14 +88,52 @@ h3,
 }
 
 #home .home-header-wrap .header-content-wrap .btn.btn-primary {
-  background-color: rgba(255, 21, 0, 1);
-  border-color: rgba(255, 21, 0, 1);
+  border: 0;
   font-size: 1em;
   padding: 0.8em 1.3em;
+  border-radius: 0;
+  /* background-color: rgba(255, 21, 0, 1); */
+  background: rgba(103, 132, 194, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(103, 132, 194, 1) 0%,
+    rgba(62, 97, 173, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(103, 132, 194, 1)),
+    color-stop(100%, rgba(62, 97, 173, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(103, 132, 194, 1) 0%,
+    rgba(62, 97, 173, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(103, 132, 194, 1) 0%,
+    rgba(62, 97, 173, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(103, 132, 194, 1) 0%,
+    rgba(62, 97, 173, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(103, 132, 194, 1) 0%,
+    rgba(62, 97, 173, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#6784c2",
+      endColorstr="#3e61ad",
+      GradientType=0
+    );
 }
 
 #home .home-header-wrap .header-content-wrap .btn.btn-primary:hover {
-  background-color: rgba(175, 35, 20, 1);
+  background-color: rgba(255, 21, 0, 0.8);
 }
 
 #focus .textwidget {
@@ -122,11 +160,57 @@ h3,
   list-style: none;
 }
 .lots {
-  background: #353333;
   padding-top: 3em;
   padding-bottom: 6em;
   color: #e7e2e2;
+  position: relative;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…IgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNTI0KSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(
+      114deg,
+      rgba(62, 97, 173, 0.92) 40%,
+      rgba(164, 200, 255, 0.92) 100%
+    ),
+    url(images/Texture-GraniteTrans.png);
+  background: -ms-linear-gradient(
+      -45deg,
+      rgba(62, 97, 173, 0.92) 40%,
+      rgba(164, 200, 255, 0.92) 100%
+    ),
+    url(images/Texture-GraniteTrans.png);
+  background: linear-gradient(
+      -45deg,
+      rgba(62, 97, 173, 0.92) 40%,
+      rgba(164, 200, 255, 0.92) 100%
+    ),
+    url(images/Texture-GraniteTrans.png);
+}
+
+.lots .image {
+  height: 12em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lots::after {
+  display: block;
+  position: absolute;
+  content: "";
   background-image: url("/wp-content/themes/zerif-lite-child/images/lots.png");
+  width: 10em;
+  height: 10em;
+  bottom: 0;
+  right: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+  opacity: 0.6;
+}
+blue-skin.css: 14 .blue-skin .circle-wrap {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…IgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNTI0KSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(114deg, #3e61ad 40%, #a4c8ff 100%);
+  background: -ms-linear-gradient(-45deg, #3e61ad 40%, #a4c8ff 100%);
+  background: linear-gradient(-45deg, #3e61ad 40%, #a4c8ff 100%);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -167,4 +251,77 @@ h3,
 
 #focus .section-legend {
   font-size: 1.6em;
+}
+
+#aboutus {
+  background: rgba(39, 39, 39, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(39, 39, 39, 1) 0%,
+    rgba(15, 15, 15, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(39, 39, 39, 1)),
+    color-stop(100%, rgba(15, 15, 15, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(39, 39, 39, 1) 0%,
+    rgba(15, 15, 15, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(39, 39, 39, 1) 0%,
+    rgba(15, 15, 15, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(39, 39, 39, 1) 0%,
+    rgba(15, 15, 15, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(39, 39, 39, 1) 0%,
+    rgba(15, 15, 15, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#272727",
+      endColorstr="#0f0f0f",
+      GradientType=0
+    );
+}
+
+#testimonials {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…k9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzk2MSkiIC8+DQo8L3N2Zz4=);
+  background: -webkit-linear-gradient(
+      114deg,
+      rgba(215, 180, 43, 0.9) 40%,
+      rgba(134, 88, 37, 0.9) 100%
+    ),
+    url(Texture-GraniteTrans.png);
+  background: -ms-linear-gradient(
+      -45deg,
+      rgba(215, 180, 43, 0.9) 40%,
+      rgba(134, 88, 37, 0.9) 100%
+    ),
+    url(Texture-GraniteTrans.png);
+  background: linear-gradient(
+      -45deg,
+      rgba(215, 180, 43, 0.9) 40%,
+      rgba(134, 88, 37, 0.9) 100%
+    ),
+    url(Texture-GraniteTrans.png);
+}
+
+#client-feedbacks .widget_text.feedback-box {
+  width: 28em;
+  height: 27em;
+  padding: 4em 5em;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#testimonials .section-header h2 {
+  color: #333 !important;
 }
