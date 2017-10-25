@@ -9,21 +9,15 @@
             <h2>Lots</h2>
 
         </div>
-
-        <div class="row lots-items">
-            <div class="col-lg-4">
-            <div class="image" style="background-image:url(/wp-content/uploads/2017/10/220051-L-LO.jpg">&nbsp;</div>
-                <h3>Google Home</h3>
-            </div>
-            <div class="col-lg-4">
-                <div class="image" style="background-image:url(/wp-content/themes/zerif-lite-child/images/studio.jpg)">&nbsp;</div>
-                <h3>Visite du studio Ubisoft</h3></div>
-            <div class="col-lg-4">
-            <div class="image" style="background-image:url(/wp-content/uploads/2017/10/220051-L-LO.jpg)">&nbsp;</div>
-                <h3>Abonnement Netflix</h3>
-            </div>
-        </div>
-
+        
+        <div class="lots-items">
+        <p>Pour récompenser les plus créatifs</p>
+        <ol>
+            <li>Google Home</li>
+            <li>Une visite du studio Ubisoft</li>
+            <li>Un abonnement Netflix</li>
+        </ol>
+        
     </div>
 
 </section>
