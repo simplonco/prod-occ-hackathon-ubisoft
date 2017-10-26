@@ -60,10 +60,10 @@ h3,
 #main-nav {
   border: 0;
   background-color: #101010;
-  height: 6em;
+  height: 7em;
 }
 #main-nav .navbar-nav > li {
-  margin-top: 1.8em;
+  margin-top: 2.2em;
   font-family: Roboto;
   letter-spacing: 2px;
   font-weight: 100;
@@ -76,7 +76,7 @@ h3,
 
 #main-nav .navbar-nav > li > a:hover,
 #main-nav .navbar-nav > li > a:focus {
-  //color: #fff;
+  /* color: #fff */
 }
 
 #main-nav .navbar-nav > li:last-child > a:link,
@@ -89,8 +89,11 @@ h3,
 }
 .slogan {
   color: #fff;
-  padding-left: 1em;
+  padding-left: 0em;
+  font-size: 1.4em;
   font-family: Roboto Condensed;
+  margin-top: 0.33em;
+  display: block;
 }
 
 @media all and (min-width: 680px) {
