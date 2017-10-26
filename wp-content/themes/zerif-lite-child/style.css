@@ -73,11 +73,20 @@ h3,
 #main-nav .navbar-nav > li > a:active {
   color: #fff;
 }
+
 #main-nav .navbar-nav > li > a:hover,
 #main-nav .navbar-nav > li > a:focus {
   //color: #fff;
 }
 
+#main-nav .navbar-nav > li:last-child > a:link,
+.main-cta {
+  background-color: #d11313;
+  color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: normal;
+}
 .slogan {
   color: #fff;
   padding-left: 1em;
