@@ -212,23 +212,20 @@ h3,
   transform: rotate(-5deg);
 
   background: -webkit-linear-gradient(
-      114deg,
-      rgba(62, 97, 173, 0.92) 40%,
-      rgba(164, 200, 255, 0.92) 100%
-    ),
-    url(images/Texture-GraniteTrans.png);
+    114deg,
+    rgba(62, 97, 173, 1) 40%,
+    rgba(164, 200, 255, 1) 100%
+  );
   background: -ms-linear-gradient(
-      -45deg,
-      rgba(62, 97, 173, 0.92) 40%,
-      rgba(164, 200, 255, 0.92) 100%
-    ),
-    url(images/Texture-GraniteTrans.png);
+    -45deg,
+    rgba(62, 97, 173, 1) 40%,
+    rgba(164, 200, 255, 1) 100%
+  );
   background: linear-gradient(
-      -45deg,
-      rgba(62, 97, 173, 0.92) 40%,
-      rgba(164, 200, 255, 0.92) 100%
-    ),
-    url(images/Texture-GraniteTrans.png);
+    -45deg,
+    rgba(62, 97, 173, 1) 40%,
+    rgba(164, 200, 255, 1) 100%
+  );
 }
 .lots::after {
   display: block;
