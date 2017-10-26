@@ -182,7 +182,6 @@ h3,
 #client-feedbacks .textwidget h5 {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 3em;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -321,96 +320,54 @@ h3,
 }
 /** programme **/
 #testimonials {
-  background-color: rgba(215, 180, 43, 0.9);
+  background-color: rgba(215, 180, 43, 0.98);
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-#testimonials:before {
-  content: "";
-  background: rgba(215, 180, 43, 0.3);
-
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: block;
-  top: 0;
-  background-image: url(/wp-content/themes/zerif-lite-child/images/banner-alt.jpg);
-  background-size: contain;
-  background-attachment: fixed;
-  background-position: top center;
-
-  -webkit-filter: blur(2px) sepia(90%);
-  filter: blur(2px) sepia(90%);
-}
 
 #testimonials .section-header h2 {
-  color: #a87e28;
-  text-shadow: 1px 1px 0 #523a0b;
+  color: rgb(51, 51, 51);
   font-family: Roboto Condensed;
   font-size: 3em;
 }
 
 #testimonials #client-feedbacks .widget_text.feedback-box {
-  background: -webkit-linear-gradient(
-      114deg,
-      rgba(215, 180, 43, 0.9) 40%,
-      rgba(134, 88, 37, 0.9) 100%
-    ),
-    url(Texture-GraniteTrans.png);
-  background: -ms-linear-gradient(
-      -45deg,
-      rgba(215, 180, 43, 0.9) 40%,
-      rgba(134, 88, 37, 0.9) 100%
-    ),
-    url(Texture-GraniteTrans.png);
-  background: linear-gradient(
-      -45deg,
-      rgba(215, 180, 43, 0.9) 40%,
-      rgba(134, 88, 37, 0.9) 100%
-    ),
-    url(Texture-GraniteTrans.png);
+  width: 100%;
+  padding: 2em;
+  background-color: transparent;
+}
 
-  width: 33em;
-  clip-path: polygon(40% 0%, 100% 40%, 60% 100%, 0% 60%);
-  height: 33em;
-  padding: 5em 4em;
-  box-sizing: border-box;
+@media screen and (min-width: 1200px) {
+  #testimonials #client-feedbacks .widget_text.feedback-box {
+    width: 40em;
+  }
 }
 
 #client-feedbacks .widget_text.feedback-box h5 {
-  margin: 0 3em 0 9em;
   font-family: Roboto Condensed;
   letter-spacing: -1px;
+  font-size: 1.4em;
 }
 #client-feedbacks .widget_text.feedback-box h3 {
-  margin: 1em 1.8em 0 3em;
-  text-indent: 1em;
+  margin: 1em 0;
   font-family: Roboto;
   font-weight: 100;
   font-style: italic;
 }
 #client-feedbacks .widget_text.feedback-box ul {
-  margin: 2em 2em 0 5em;
+  margin: 2em 0;
 }
 #client-feedbacks .widget_text.feedback-box li {
   font-family: Roboto Slab;
   margin-bottom: 0.2em;
   letter-spacing: -1px;
+  font-size: 1.4em;
 }
 #client-feedbacks .widget_text.feedback-box li b {
   font-family: Roboto Condensed;
   font-size: 80%;
   letter-spacing: -1px;
-}
-
-@media screen and (min-width: 1200px) {
-  #client-feedbacks .feedback-box:nth-of-type(1) {
-    transform: translate(5em, -1em);
-  }
-  #client-feedbacks .feedback-box:nth-of-type(3) {
-    transform: translate(3em, -13em);
-  }
 }
 
 /** footer **/
