@@ -1,0 +1,1 @@
+<p class="typo-p">Fidèle à sa mission « enrichir la vie des joueurs », Ubisoft vous propose de plancher sur la redistribution des données de jeux… aux joueurs ! Entreprise déjà active sur ce sujet* Ubisoft vous invite à imaginer d’autres usages, à échanger et à confronter vos idées à celles des experts de la data d’Ubisoft et de Simplon qui animeront le hackathon !</p>

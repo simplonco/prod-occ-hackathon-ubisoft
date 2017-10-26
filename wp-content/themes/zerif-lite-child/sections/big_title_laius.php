@@ -1,0 +1,1 @@
+<p class="typo-p bigtitle-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio explicabo commodi odit ab numquam dolorem voluptatem incidunt sit fugit corrupti voluptate, placeat nemo tempore? Quod eaque placeat quas magni.</p>
