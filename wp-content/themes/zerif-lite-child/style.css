@@ -245,7 +245,7 @@ h3,
 .lots .section-header h2 {
   font-family: Roboto Slab;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 2em;
 }
 .lots .lots-items p {
   font-size: 2em;
@@ -256,7 +256,8 @@ h3,
 }
 .lots .lots-items ol {
   text-align: left;
-  margin-left: 6em;
+  margin-left: 4em;
+  font-size: 1.1em;
 }
 .lots .lots-items li {
   margin-bottom: 0.33em;
