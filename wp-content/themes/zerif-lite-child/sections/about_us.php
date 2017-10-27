@@ -39,7 +39,7 @@
 				$zerif_aboutus_biglefttitle = get_theme_mod( 'zerif_aboutus_biglefttitle' );
 			}
 
-			get_template_part( 'section/aboutus-paragraph' );
+			
 
 			$zerif_aboutus_text_default = sprintf( __( 'Change this text in %s', 'zerif-lite' ), __( 'About us section', 'zerif-lite' ) );
 			if ( defined( 'THEMEISLE_COMPANION_VERSION' ) ) {
@@ -50,6 +50,7 @@
 			} else {
 				$zerif_aboutus_text = get_theme_mod( 'zerif_aboutus_text' );
 			}
+			 
 
 			if ( current_user_can( 'edit_theme_options' ) ) {
 				$zerif_aboutus_feature1_title = get_theme_mod( 'zerif_aboutus_feature1_title', sprintf( '<a href="%1$s" class="zerif-default-links">%2$s</a>', esc_url( admin_url( 'customize.php?autofocus&#91;control&#93;=zerif_aboutus_feature1_title' ) ), __( 'Edit skill','zerif-lite' ) ) );
@@ -109,10 +110,10 @@
 					echo '<div class="col-lg-' . $colCount . ' col-md-' . $colCount . ' column zerif-rtl-big-title">';
 
 						echo '<div class="big-intro" data-scrollreveal="enter left after 0s over 1s">';
-
-							echo wp_kses_post( $zerif_aboutus_biglefttitle );
-
+						echo wp_kses_post( $zerif_aboutus_biglefttitle );
 						echo '</div>';
+
+						get_template_part( 'sections/aboutus-paragraph' );
 
 					echo '</div>';
 
@@ -341,8 +342,10 @@
 					echo '</div>';
 				echo '</div> ';
 			endif;
+	
+	get_template_part('sections/aboutus-bottomparagraph');
 	?>
-
+	
 	</div> <!-- / END CONTAINER -->
 
 	<?php zerif_bottom_about_us_trigger(); ?>

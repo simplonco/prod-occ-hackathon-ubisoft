@@ -1,1 +1,3 @@
-<h3 class="skills-subtitle">A quels besoins des joueurs les données de jeu pourraient-elles répondre ? <br>Voici quelques exemples de pistes :</h3>
+<h3 class="skills-subtitle">
+   <?= nl2br(get_theme_mod('socc_about_tasks-title')) ?>
+</h3>

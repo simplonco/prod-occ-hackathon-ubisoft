@@ -20,6 +20,12 @@ h3,
 .btn {
   font-family: Roboto;
 }
+
+body {
+  background-image: url(/wp-content/themes/zerif-lite-child/images/banner-alt.jpg);
+  background-position: top center;
+  background-attachment: fixed;
+}
 .navbar-brand {
 }
 
@@ -32,7 +38,7 @@ h3,
 }
 
 .header-content-wrap {
-  padding: 3.5em 0 4.5em;
+  padding: 7em 0 4.5em;
 }
 .intro-text {
   padding-top: 1em;
@@ -92,7 +98,7 @@ h3,
 .slogan {
   color: #fff;
   padding-left: 0em;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: Roboto Condensed;
   margin-top: 0.33em;
   display: block;
@@ -118,6 +124,7 @@ h3,
 }
 .bigtitle-subtitle {
   margin: 2em;
+  font-size: 1.6em !important;
 }
 #focus .textwidget {
   text-align: left;
@@ -168,7 +175,7 @@ h3,
 
 .lots {
   background-image: url(/wp-content/themes/zerif-lite-child/images/banner-alt.jpg);
-  background-size: contain;
+
   background-attachment: fixed;
   background-position: top center;
   padding-top: 6em;
@@ -200,7 +207,7 @@ h3,
     rgba(164, 200, 255, 1) 100%
   );
 }
-.lots::after {
+.home-header-wrap::after {
   display: block;
   position: absolute;
   content: "";
@@ -280,7 +287,14 @@ h3,
       GradientType=0
     );
 }
+
+#aboutus .about-bottom {
+  font-size: 1.1em;
+  color: #dfdfdf;
+}
+
 /** programme **/
+
 #testimonials {
   background-color: rgba(215, 180, 43, 0.98);
   position: relative;
@@ -351,7 +365,8 @@ h3,
 
 /** text about-us **/
 
-.about-us .section-legend {
+.about-us .section-legend,
+.about-us .about-bottom {
   padding-right: 1em;
   padding-left: 1em;
   font-size: 2em;
@@ -419,7 +434,8 @@ h3,
 .about-us .text_and_skills p,
 .about-us .aboutus-postcontent p,
 .skills-subtitle,
-.typo-p {
+.typo-p,
+#aboutus-subtitle {
   color: #dfdfdf;
   text-align: left;
   font-size: 1.1em;
@@ -463,4 +479,7 @@ h3,
 }
 .about-us .aboutus-postcontent p {
   font-family: Roboto Slab;
+}
+#aboutus-subtitle {
+  margin-top: 2em;
 }

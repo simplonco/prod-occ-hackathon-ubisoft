@@ -24,7 +24,7 @@
 
 		zerif_big_title_text_trigger();
 
-		get_template_part( 'sections/big_title_laius' );
+		echo get_template_part( 'sections/big_title_laius' );
 		
 
         $zerif_bigtitle_redbutton_label_default = get_theme_mod( 'zerif_bigtitle_redbutton_label' );

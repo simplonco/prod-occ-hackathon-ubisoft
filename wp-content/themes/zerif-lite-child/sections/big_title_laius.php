@@ -1,1 +1,3 @@
-<p class="typo-p bigtitle-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio explicabo commodi odit ab numquam dolorem voluptatem incidunt sit fugit corrupti voluptate, placeat nemo tempore? Quod eaque placeat quas magni.</p>
+<p class="typo-p bigtitle-subtitle" id="laius">
+   <?= get_theme_mod('socc_hero_subtitle') ?>
+</p>
